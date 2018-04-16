@@ -62,6 +62,7 @@ circles.push(new Circle(mouseX, mouseY));
 function Circle(x, y){
   this.x=x;
   this.y=y;
+  this.gravity=random(2,10);
 
 //display function
   this.display = function(){
@@ -76,7 +77,7 @@ function Circle(x, y){
 //move function
   this.move = function(){
 
-    this.y = this.y + 10;
+    this.y = this.y + this.gravity;
     if(this.y>= windowHeight){
       this.y=windowHeight;
     }
