@@ -1,6 +1,11 @@
 var fs = false;
 var circles = [];
-var hue = 0;
+var h = 0;
+var Xpos = 50;
+var Ypos = 50;
+var diam = 20;
+var space = 50;
+
 
 
 function setup() {
@@ -18,13 +23,27 @@ function draw() {
   textSize(32);
   textAlign(CENTER);
   text('click and drag', windowWidth/2, windowHeight/2);
-  fill(0, 102, 153);
+  fill(100, 102, 153);
+
+push();
+while (Xpos <= windowWidth-1){
+  while (Ypos<= windowHeight-1){
+    fill(67,200,200,50);
+    noStroke();
+    ellipse(Xpos, Ypos, diam, diam);
+    Ypos=Ypos+space;}
+    Ypos=50;
+    Xpos=Xpos+space;
+}
+Xpos=50;
+pop();
 
 //call fuctions
 for (var i= 0; i<circles.length; i++) {
   circles[i].move();
   circles[i].display();
 }
+
 }
 
 //make window resize
@@ -48,18 +67,18 @@ function Circle(x, y){
   this.display = function(){
     push();
     noStroke();
-    fill(hue,200,200, 50);
+    fill(h,200,200, 50);
     ellipse(this.x, this.y, 100, 100);
-    hue=(random(255));
+    h=(random(255));
     pop();
   }
 
 //move function
   this.move = function(){
 
-    this.y = this.y + random(1,20);
-    if(this.y>= height){
-      this.y=height;
+    this.y = this.y + 10;
+    if(this.y>= windowHeight){
+      this.y=windowHeight;
     }
 
   }
