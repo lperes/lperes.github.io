@@ -1,119 +1,120 @@
-{"sentences" : [
-"[random('numbers')] people are seeing the benefits of the ['postive adjectives'] ['character traits'] of ['your name']. ['positive closer'].",
-"Believe me. ['your name'] is the most ['negative adjective'] ['people negative'] in the history of ['place']. ['negative closer'].",
-"['your name'] is a ['positive adjective'] ['people positive']. Don’t believe the ['media outlets']. ['numbers'] agree, total witchhunt.",
-"Known to associate with ['nicknames'], ['your name'] is a ['negative adjective'] ['people negative']. ['negative closer']."
-],
+{
+  "sentences": [
+    "['numbers'] of people are seeing the benefits of the ['postive adjective'] ['character traits'] of ['your name']. ['positive closer'].",
+    "Believe me. ['your name'] is the most ['negative adjective'] ['people negative'] in the history of ['place']. ['negative closer'].",
+    "['your name'] is a ['positive adjective'] ['people positive']. Don’t believe the ['media outlets']. ['numbers'] agree, total witchhunt.",
+    "Known to associate with ['nicknames'], ['your name'] is a ['negative adjective'] ['people negative']. ['negative closer']."
+  ],
 
-"numbers" : [
-"thousands of",
-"millions of",
-"trillions of",
-"record amounts of"
-],
+  "numbers": [
+    "thousands",
+    "millions",
+    "trillions",
+    "record amounts"
+  ],
 
-"positive adjectives" : [
-"great",
-"tremendous",
-"highest",
-"outstanding",
-"huge",
-"classy",
-"patriotic"
-],
+  "positive_adjectives": [
+    "great",
+    "tremendous",
+    "highest",
+    "outstanding",
+    "huge",
+    "classy",
+    "patriotic"
+  ],
 
-"negative adjectives" : [
-"bad",
-"disastrous",
-"terrible",
-"fake news",
-"lyin’",
-"leakin’",
-"sad",
-"badly reviewed",
-"loser",
-"zero",
-"Unamerican"
-],
+  "negative_adjectives": [
+    "bad",
+    "disastrous",
+    "terrible",
+    "fake news",
+    "lyin’",
+    "leakin’",
+    "sad",
+    "badly reviewed",
+    "loser",
+    "zero",
+    "Unamerican"
+  ],
 
-"people negative" : [
-"negotiator",
-"person",
-"crook",
-"businessperson",
-"leader",
-"loser",
-"bully",
-"American",
-"coward"
-],
+  "people_negative": [
+    "negotiator",
+    "person",
+    "crook",
+    "businessperson",
+    "leader",
+    "loser",
+    "bully",
+    "American",
+    "coward"
+  ],
 
-"people positive" : [
-"negotiator",
-"person",
-"patriot",
-"businessperson",
-"leader",
-"winner",
-"American",
-"fighter"
-],
+  "people_positive": [
+    "negotiator",
+    "person",
+    "patriot",
+    "businessperson",
+    "leader",
+    "winner",
+    "American",
+    "fighter"
+  ],
 
-"character traits" : [
-"natural talent",
-"communication skills",
-"personality",
-"negotiation skills",
-"leadership skills",
-"conflict resolution skills",
-"confidence",
-"loyalty"
-],
+  "character_traits": [
+    "natural talent",
+    "communication skills",
+    "personality",
+    "negotiation skills",
+    "leadership skills",
+    "conflict resolution skills",
+    "confidence",
+    "loyalty"
+  ],
 
-"media outlets"  : [
-"Failing New York Times",
-"Crooked Media",
-"Clinton News Network"
-],
+  "media_outlets": [
+    "Failing New York Times",
+    "Crooked Media",
+    "Clinton News Network"
+  ],
 
-"nicknames" : [
-"Crooked Hillary Clinton",
-"Leakin’ James Comey",
-"Cheatin’ Obama",
-"Crazy Bernie",
-"Cryin’ Chuck",
-"Little Rocket man",
-"Sloppy Steve"
-],
+  "nicknames": [
+    "Crooked Hillary Clinton",
+    "Leakin’ James Comey",
+    "Cheatin’ Obama",
+    "Crazy Bernie",
+    "Cryin’ Chuck",
+    "Little Rocket man",
+    "Sloppy Steve"
+  ],
 
-"place" : [
-"the United States",
-"the world",
-"the FBI",
-"the constitution"
-],
+  "place": [
+    "the United States",
+    "the world",
+    "the FBI",
+    "the constitution"
+  ],
 
-"negative closer" : [
-"Sad!",
-"Committed many crimes!",
-"A total disaster.",
-"You’ll find out.",
-"A complete mess.",
-"Not looking good!",
-"BAD!",
-"Unbelievable.",
-"Slimeball!",
-"Total joke!"
-],
+  "negative_closer": [
+    "Sad!",
+    "Committed many crimes!",
+    "A total disaster.",
+    "You’ll find out.",
+    "A complete mess.",
+    "Not looking good!",
+    "BAD!",
+    "Unbelievable.",
+    "Slimeball!",
+    "Total joke!"
+  ],
 
-"positive closer" : [
-"Everyone is talking, really nice to see!",
-"Enjoy!",
-"#MAGA",
-"There won’t be anything, or anyone, even close!",
-"Could not have had a better result.",
-"I am considering a full pardon!",
-"No Collusion, so they go crazy!",
-"WITCH HUNT!"
-]
+  "positive_closer": [
+    "Everyone is talking, really nice to see!",
+    "Enjoy!",
+    "#MAGA",
+    "There won’t be anything, or anyone, even close!",
+    "Could not have had a better result.",
+    "I am considering a full pardon!",
+    "No Collusion, so they go crazy!",
+    "WITCH HUNT!"
+  ]
 }

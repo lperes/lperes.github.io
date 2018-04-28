@@ -17,12 +17,12 @@ function setup() {
   /// Input box
   inp = createInput('');
   inp.position(100, 200);
-  inp.size(300, 50);
-  inp.style('font-size', '30px');
+  inp.size(300, 30);
+  inp.style('font-size', '20px');
 
   /// Submit createButton
   button = createButton('Find out');
-  button.position(425, 200);
+  button.position(425, 205);
   button.mousePressed(updateName);
   button.mousePressed(displayTweet);
   button.mousePressed(wordReplace);
@@ -39,16 +39,16 @@ function draw() {
   fill(50);
   text('How does Donald Trump feel about you?', 100, 100);
   textSize(15);
-  text('Because his opinions matter so much to you.', 100, 120);
+  text('Because his feedback means everything to you.', 100, 120);
 
   textSize(20);
   text('Whats your name?', 100, 180);
 }
 
 function displayTweet() {
-  image(img, 100, 300);
-  textSize(60);
-  text(sentence, 250, 400, 800, 600);
+  image(img, 100, 300,600,388.5);
+  textSize(35);
+  text(sentence, 170, 370, 500, 600);
 }
 
 function updateName() {
