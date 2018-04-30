@@ -12,7 +12,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, 1200);
+  createCanvas(windowWidth, windowHeight);
 
   /// Input box
   inp = createInput('');
@@ -112,6 +112,21 @@ function getRandomPositiveCloser() {
   return words.positive_closer[randomIndex];
 }
 
+function getRandomPositiveCloser2() {
+  var randomIndex = int(Math.random()*words.positive_closer_2.length);
+  return words.positive_closer_2[randomIndex];
+}
+
+function getRandomCrime() {
+  var randomIndex = int(Math.random()*words.crime.length);
+  return words.crime[randomIndex];
+}
+
+function getRandomCause() {
+  var randomIndex = int(Math.random()*words.cause.length);
+  return words.cause[randomIndex];
+}
+
 function wordReplace() {
   sentenceIndex = int(Math.random()*words.sentences.length)
 
@@ -127,6 +142,13 @@ function wordReplace() {
   sentence = sentence.replace("['place']", getRandomPlace());
   sentence = sentence.replace("['negative closer']", getRandomNegativeCloser());
   sentence = sentence.replace("['positive closer']", getRandomPositiveCloser());
+  sentence = sentence.replace("['positive closer 2']", getRandomPositiveCloser2());
+  sentence = sentence.replace("['crime']", getRandomCrime());
+  sentence = sentence.replace("['cause']", getRandomCause());
   sentence = sentence.replace("['your name']", name);
   console.log(sentence);
+}
+
+function windowResized(){
+  resizeCanvas(windowWidth,windowHeight);
 }

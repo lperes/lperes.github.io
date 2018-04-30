@@ -2,9 +2,13 @@
   "sentences": [
     "['numbers'] of people are seeing the benefits of the ['positive adjective'] ['character traits'] of ['your name']. ['positive closer']",
     "Believe me. ['your name'] is the most ['negative adjective'] ['people negative'] in the history of ['place']. ['negative closer']",
-    "['your name'] is a ['positive adjective'] ['people positive']. Don’t believe the ['media outlets']. ['numbers'] agree, total witchhunt.",
+    "['your name'] is a ['positive adjective'] ['people positive']. Don’t believe the ['media outlets']. ['numbers'] agree, ['positive closer 2']",
     "Known to associate with ['nicknames'], ['your name'] is a ['negative adjective'] ['people negative']. ['negative closer']",
-    "A complete witchhunt!"
+    "A complete witchhunt!",
+    "Here’s a great stat: ['numbers'] of ['people negative']s with ['negative adjective'] ['character traits'] (['your name']) are losers. ['positive closer 2']",
+    "Record-breaking amounts of ['crime'] committed by ['your name']. Lied all over the place to cover it up. Just as bad as ['nicknames'].",
+    "['your name'] has been treated unfairly for many years, by many people, on all sides. ['positive closer']",
+    "I tell you what, true patriot, ['your name'] has made a ['positive adjective'] effort towards ['cause']. I respect that fact very much. ['positive closer']"
   ],
 
   "numbers": [
@@ -36,7 +40,6 @@
     "sad",
     "badly reviewed",
     "loser",
-    "zero",
     "Unamerican"
   
   ],
@@ -50,7 +53,9 @@
     "loser",
     "bully",
     "American",
-    "coward"
+    "coward",
+    "deviant",
+    "hater"
   
   ],
 
@@ -74,7 +79,8 @@
     "leadership skills",
     "conflict resolution skills",
     "confidence",
-    "loyalty"
+    "loyalty",
+    "ego"
   
   ],
 
@@ -130,5 +136,36 @@
     "WITCH HUNT!",
     "Press is so silent.",
     "Very cool about it!"
-  ]
+  ],
+
+    "positive_closer_2": [
+    "there won’t be anything, or anyone, even close!",
+    "could not have had a better result.",
+    "WITCH HUNT!",
+    "press is so silent.",
+    "every detail was done to perfection.",
+    "big win.",
+    "I called it!"
+  ],
+
+"crime":[
+"collusion",
+"obstruction of justice",
+"corruption",
+"conspiracy",
+"money laundering",
+"bank fraud"
+
+],
+
+"cause": [
+"the wall",
+"the silent majority",
+"law and order",
+"the war on drugs",
+"tax cuts",
+"the repeal of Obamacare",
+"defeating ISIS"
+]
+
 }
