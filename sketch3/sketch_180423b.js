@@ -40,6 +40,7 @@ function draw() {
   text('How does Donald Trump feel about you?', 100, 100);
   textSize(15);
   text('Because his feedback means everything to you.', 100, 120);
+  text('press "find out" as many times as you like', 100, 260);
 
   textSize(20);
   text('Whats your name?', 100, 180);
